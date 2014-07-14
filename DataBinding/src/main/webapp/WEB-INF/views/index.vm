@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=GBK">
+<title>data binding example</title>
+</head>
+<body>
+<form action="dataBinding/paramBind?urlParam=lipantest" method="post" enctype="multipart/form-data">
+<input type="text" name="formParam"/><br/>
+<input type="file" name="formFile"/><br/>
+<input type="submit" name="Submit"/><br/>
+</form>
+</body>
+</html>
