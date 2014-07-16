@@ -1,0 +1,20 @@
+## login.vm 
+## author:lipan
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=GBK">
+<title>data binding example</title>
+</head>
+<body>
+<form method="post">
+#springBind("accountmodel.username")
+姓名：<input type="text" name="${status.expression}" value="$!status.value"/>
+<font color="#FF0000">${status.errorMessage}</font><br/>
+#springBind("accountmodel.password")
+密码：<input type="text" name="${status.expression}" value="$!status.value"/>
+<font color="#FF0000">${status.errorMessage}</font><br/>
+<input type="submit" name="Submit"/><br/>
+</form>
+</body>
+</html>

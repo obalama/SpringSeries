@@ -6,12 +6,12 @@
 </head>
 <body>
 <h1>自动绑定的数据</h1>
-Url参数${urlParam} </br>
-form参数${formParam} </br>
-form文件${formFile} </br>
+Url参数:${urlParam} </br>
+form参数:${formParam} </br>
+form文件:${formFile} </br>
 <h1>手动拉取的数据</h1>
-Url参数${urlParam1} </br>
-form参数${formParam1} </br>
-form文件${formFile1} </br>
+Url参数:${urlParam1} </br>
+form参数:${formParam1} </br>
+form文件:${formFile1} </br>
 </body>
 </html>

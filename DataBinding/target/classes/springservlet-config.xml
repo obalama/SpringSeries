@@ -62,6 +62,9 @@
 		<property name="contentType">
 			<value>text/html;charset=GBK</value>
 		</property> 
+		<property name="exposeSpringMacroHelpers">
+		<value>true</value>
+		</property>
 	</bean>
 
 	<bean id="multipartResolver"
